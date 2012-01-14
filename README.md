@@ -18,7 +18,9 @@ Create a file named `~/.reader2maildir` in your home directory, which
 is a [YAML](http://www.yaml.org/) configuration file.
 
 >  username: *your username*@gmail.com
+>
 >  password: *your password*
+>
 >  maildir: *full path to the maildir you want to use*
 
 Each time you run `reader2maildir.rb`, fresh items will be downloaded
