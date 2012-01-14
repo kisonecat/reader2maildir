@@ -17,9 +17,9 @@ Put the `.rb`'s files in a directory somewhere.
 Create a file named `~/.reader2maildir` in your home directory, which
 is a [YAML](http://www.yaml.org/) configuration file.
 
-  username: _your username_@gmail.com
-  password: _your password_
-  maildir: _full path to the maildir you want to use_
+>  username: *your username*@gmail.com
+>  password: *your password*
+>  maildir: *full path to the maildir you want to use*
 
 Each time you run `reader2maildir.rb`, fresh items will be downloaded
 from Google Reader and placed in subdirectories under `maildir`
