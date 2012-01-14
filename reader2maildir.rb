@@ -2,6 +2,8 @@
 # 
 # reader2maildir.rb --- synchronize Google reader with a maildir
 # 
+# version 0.3
+# 
 # Copyright (C) 2011 Jim Fowler     
 # 
 # This file is part of reader2maildir.
