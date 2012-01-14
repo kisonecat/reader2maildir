@@ -10,7 +10,7 @@ So by using reader2maildir, you can read your Google Reader items in
 
 ## Install
 
-Put the `.rb`'s files in a directory somewhere.
+Put the `.rb`'s in a directory somewhere.
    
 ## Getting Started
 
