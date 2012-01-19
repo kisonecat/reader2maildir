@@ -118,7 +118,7 @@ module GoogleReader
         article = Article.new
         article.description = item['content'].to_s
         if article.description.length == 0
-          article.description = item['summary']['content']
+          article.description = item['summary']['content'] unless item['summary'].nil?
         end
         article.author = item['author']
         article.email = item['email']
